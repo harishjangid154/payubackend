@@ -7,7 +7,7 @@ const {
 
 const router = express.Router();
 
-router.get("/", getTransactionId);
+router.post("/", getTransactionId);
 router.post("/", updateTransactoin);
 router.get("/:txn", getTransactionDetail);
 
